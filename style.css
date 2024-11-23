@@ -1,0 +1,128 @@
+/* Style umum */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Container utama */
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  background: #ffffff;
+  padding: 24px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Styling untuk header */
+.header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.header h2 {
+  font-size: 28px;
+  color: #444;
+  margin: 0 0 12px;
+}
+
+.header .button-link {
+  padding: 12px 28px;
+  background-color: #4caf50;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.header .button-link:hover {
+  background-color: #388e3c;
+  transform: scale(1.05);
+}
+
+/* Style tabel */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+  font-size: 14px;
+}
+
+table th {
+  background-color: #4caf50;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #e9f5e9;
+  cursor: pointer;
+}
+
+/* Form style */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+form input[type="text"],
+form input[type="number"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="number"]:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+form label {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Style untuk tombol */
+button,
+.button-link {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover,
+.button-link:hover {
+  background-color: #388e3c;
+  transform: scale(1.05);
+}
